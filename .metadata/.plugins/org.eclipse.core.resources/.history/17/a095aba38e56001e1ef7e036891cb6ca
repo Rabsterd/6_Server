@@ -1,0 +1,12 @@
+package edu.kh.jsp.controller;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+// 서블릿 매핑에서 유효하지 않은 url pattern
+// -> 매핑할 주소 제일 앞에 "/" 반드시 작성
+// -> 쓰지 않으면 에러남
+@WebServlet("/scope")
+public class ScopeController extends HttpServlet{
+	
+}

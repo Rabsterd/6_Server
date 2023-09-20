@@ -1,0 +1,38 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JSTL(Jsp Standard Tag Library)</title>
+</head>
+<body>
+	
+	<h1>JSTL(Jsp Standard Tag Library, JSP 표준 태그 라이브러리)</h1>
+	
+	<pre>
+		JSP에서 자주 사용되거나 공통적으로 사용되는 
+		Java 코드(if, for, 변수 선언, 형변환)를
+		
+		스크립틀릿대신 html 태그 형식을 태그화하여
+		표준으로 제공하는 라이브러리
+		(if, for 간단히 쓰고싶으면 이거 써라)
+	</pre>
+	
+	<h3>JSTL 라이브러리 등록 방법</h3>
+	
+	<ol>
+		<a hlef="https://tomcat.apache.org/download-taglibs.cgi"></a>
+		<li>JSTL 다운로드</li>
+	</ol>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</body>
+</html>

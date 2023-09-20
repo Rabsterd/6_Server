@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;adu.kh.servlet.controller&apos; to &apos;edu.kh.servlet.controller&apos;&#x0D;&#x0A;- Original project: &apos;ServletProject&apos;&#x0D;&#x0A;- Original element: &apos;ServletProject/src/main/java/adu.kh.servlet.controller&apos;&#x0D;&#x0A;- Renamed element: &apos;ServletProject/src/main/java/edu.kh.servlet.controller&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;adu.kh.servlet.controller&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;adu.kh.servlet.controller" name="edu.kh.servlet.controller" qualified="false" references="true" stamp="1694743881676" textual="false" version="1.0"/>
+</session>
