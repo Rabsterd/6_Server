@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    
+<link rel="stylesheet" href="/resources/css/main-style.css">
 
  <header>
             <!-- 클릭 시 메인페이지로 이동하는 로고 -->
@@ -13,7 +15,7 @@
             <section>
                 <section class="search-area">
                     <!-- form 내부 input 태그 값을 서버 또는 페이지로 전달 -->
-                    <form action="#" name="search-form">
+                    <form action="/search" method="get" name="search-form">
                         <!-- fieldset :  form 내부에서 input을 종류별로 묶는 용도로 자주 사용 -->
                         <fieldset>
 
@@ -21,9 +23,9 @@
                                 브라우저에 의해 다르게 표현될 수 있음 -->
                             <!-- autocomplete : HTML 기본 자동완성 사용 X -->
                             <input type="search" id="query" name="query"
-                                autocomplete="off" placeholder="검색어를 입력해주세요"
+                                autocomplete="off" placeholder="회원을 닉네임으로 검색해주세요"
                             >
-                            <button class="fa-regular fa-magnifying-glass" id="searchBtn" ></button>
+                            <button class="fa-solid fa-magnifying-glass" id="searchBtn" ></button>
                         </fieldset>
 
                     </form>

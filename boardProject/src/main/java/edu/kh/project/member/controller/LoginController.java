@@ -43,7 +43,7 @@ public class LoginController extends HttpServlet{
 				session.setAttribute("loginMember", loginMember);
 				
 				// session 만료 시간 지정 (초단위 지정)
-				session.setMaxInactiveInterval(5);
+				session.setMaxInactiveInterval(3600);
 				
 				
 				// forward : 요청 처리 후 자체적인 화면이 존재하여
@@ -59,6 +59,17 @@ public class LoginController extends HttpServlet{
 				
 				
 			} else { // 실패
+				
+				// 로그인 실패 메시지를 session에 추가
+				session.setAttribute("message", "아이디 또는 비밀번호가 일치하지 않습니다");
+				
+				// 현재 요청 이전 페이지로 redirect
+				String referer = req.getHeader("referer");
+				// referer -> 각 페이지 방문 시 남는 흔적을 말함
+				// request.getHeader() : 안에 파라미터로 referer 전달 시 이전 페이지가 주소값 반환
+				// http://localhost:8080/
+				
+				resp.sendRedirect(referer);
 				
 			}
 			
