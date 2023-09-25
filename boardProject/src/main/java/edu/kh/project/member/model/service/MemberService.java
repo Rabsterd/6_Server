@@ -15,7 +15,7 @@ public class MemberService {
 
 	public Member login(String inputEmail, String inputPw) throws Exception{
 		
-		Connection conn =  getConnection();
+		Connection conn = getConnection();
 		
 		Member loginMember = dao.login(conn, inputEmail, inputPw);
 		

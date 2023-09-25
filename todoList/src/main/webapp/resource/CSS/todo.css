@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    font-family: "고운 돋움";
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-box {
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-box > div {
+    display: inline;
+    
+}
+
+.login-box input {
+    width: 130px;
+    height: 24px;
+}
+
+.login-button {
+    width: 130px;
+    height: 24px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+
+.login-box a {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+
+}
