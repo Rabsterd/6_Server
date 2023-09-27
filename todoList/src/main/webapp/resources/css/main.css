@@ -10,12 +10,20 @@ main {
     flex-direction: column;
 }
 
+.login-title {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
 .login-box {
     width: 200px;
     height: 300px;
     border: 1px solid black;
     border-radius: 15px;
-    margin: 50px;
+    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,5 +52,27 @@ main {
     color: black;
     text-align: center;
     font-weight: bold;
+}
 
+/****************** 로그인 성공 시 *********************/
+
+.list-title {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	font-size: 24px;
+	font-weight: bold;	
+}
+
+.list {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-bottom: 10px;
+}
+
+.register {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
 }

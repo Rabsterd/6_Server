@@ -1,9 +1,0 @@
-package edu.kh.jsp.student.controller;
-
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-
-@WebServlet("/jstl/student/selectOne")
-public class SelectOne extends HttpServlet{
-
-}
